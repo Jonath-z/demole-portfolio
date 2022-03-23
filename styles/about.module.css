@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap");
+.aboutContainer {
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.aboutme {
+  font-family: "Lexend Deca", sans-serif;
+  padding: 0 10px;
+}
+
+.listUl {
+  list-style-type: none;
+}
+.listLi {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contactspan {
+  margin: 0px 10px;
+}
+.num1 {
+  padding-right: 5px;
+}
+
+.icon {
+  font-size: 20px;
+}

@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant+Garamond:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cormorant+Garamond:wght@300&family=Poiret+One&display=swap");
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .subContainer{
+
+} */
+
+.h1Name {
+  font-size: 20rem;
+  margin: 0 auto;
+  font-family: "Cinzel", serif;
+}
+.h1SecondName {
+  font-size: 20rem;
+  margin: 0 auto;
+  font-family: "Cinzel", serif;
+}
+.shortDescript {
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Poiret One", cursive;
+  font: 700;
+}
+.btnContainer {
+  text-align: center;
+}
+.seemoreBtn {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 449px) {
+  .h1Name {
+    font-size: 5rem;
+  }
+  .h1SecondName {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 767px) {
+  .h1Name {
+    font-size: 7rem;
+  }
+  .h1SecondName {
+    font-size: 7rem;
+  }
+}
+@media (min-width: 768px) {
+  .h1Name {
+    font-size: 10rem;
+  }
+  .h1SecondName {
+    font-size: 10rem;
+  }
+}
+@media (min-width: 1024px) {
+  .h1Name {
+    font-size: 12rem;
+  }
+  .h1SecondName {
+    font-size: 12rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .h1Name {
+    font-size: 15rem;
+  }
+  .h1SecondName {
+    font-size: 15rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .h1Name {
+    font-size: 18rem;
+  }
+  .h1SecondName {
+    font-size: 18rem;
+  }
+}
