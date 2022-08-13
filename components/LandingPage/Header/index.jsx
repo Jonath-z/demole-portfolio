@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div>
       <div className="flex justify-between items-center text-white bg-black/50 p-5  backdrop-blur-md">
-        <div>
+        <div className="lg:block hidden">
           <ul className="hidden lg:flex gap-5">
             <a href="#about">
               <li>A propos</li>
