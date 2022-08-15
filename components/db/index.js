@@ -2,27 +2,27 @@ export const services = [
   {
     title: "Article de Blog",
     description:
-      "Partage des valeurs de votre entreprise et y federer une communaute",
+      "Permettent de fidéliser les visiteurs de votre site ou blog et y constituer une communauté par des messages en accord avec vos valeurs de business",
   },
   {
     title: "Page de vente",
     description:
-      "Vous voulez faire passer votre prospect d'un point ou il fais connaissance de votre entreprise au point ou il meurt d'envie de se procurer ce que vous proposer",
+      "Est une page web où on présente votre produit, ses bénéfices, caractéristiques et d'autres arguments pour persuader le visiteur à effectuer l'achat .",
   },
   {
     title: "Landing Page",
     description:
-      "C'est la ou vos premier prospects atterissent et y laisse leur identite",
+      "C'est une page spécifiquement conçu afin d'accueillir les visiteurs qui ont vu une annonce ou publicité de votre business et où l'on récolte leurs informations ",
   },
   {
     title: "Sequences Emails",
     description:
-      "avec l'essor de reseaux sociaux , les utilisateur du monde entier echange jusqu'a 288 millards d'emails entre eux. Autant en user soigneseument pour ton business",
+      "C'est une série de plusieurs emails envoyés à intervalles réguliers au même destinataire Avec lui, c'est : Acquérir des prospects à moindre coût, Conversion et fidélisation des clients, adapter tes offres en fonction des clients, segmenter tes contacts et multiplier tes profits",
   },
   {
     title: "Site web",
     description:
-      "Il dit ce que vous et votre entrprise etes. Il permet d'inspirer confiance a vos visiteur et de maitriser votre communaute en ligne. Bien copywriter, il  vous positionne comme expert de votre sector",
+      "Bien rédiger, il va vous faire connaître auprès des visiteurs comme étant expert d'un secteur,  de gagner en visibilité sur les moteurs de recherche et ainsi d'inspirer confiance",
   },
 ];
 

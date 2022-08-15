@@ -8,26 +8,20 @@ const About = () => {
     >
       <h1 className="text-2xl pb-5">A propos de moi</h1>
       <p>
-        <span>
-          Fin passionne de la psycologie humaine, je me suis plonge dans la
-          grande marmite entrepreunerial et precisement dans le copywriting vue
-          que celui-ci partage plusieurs de me valeurs intresinque, entre autre
-          l&apos;impathie.
-          <br /> Mettre l&apos;hummain et ses besoins au coeur d&apos;un
-          business fait qu&apos;il ait un business.
-        </span>
-        <br className="py-5" />
-        <span>
-          Je suis detenteur d&apos;un diplome en science economique de gestion
-          et d&apos;un bacaloreat en finance
-        </span>
+        Fin passionné de la psychologie humaine, je me suis plongé dans cette
+        grande marmite entrepreneuriale et précisément dans le copywriting vu
+        que celui-ci partage plusieurs de mes valeurs intrinsèques, entre autre
+        l&apos;empathie.
         <br />
-        <span>
-          J&apos;aide les entrepreneur et infopreneur a augmanter leur ventes et
-          la croissance de leur hads grace a des textes hypnotique et
-          perssuasif, ainsi juste explorer les resultats en quittant de normal a
-          l&apos;eblouissance
-        </span>
+        <br /> Mettre l&apos;humain et ses besoins au cœur d&apos;un business
+        fait qu&apos;il y ai un business.
+        <br /> Je suis détenteur d&apos;un diplôme en Sciences Économiques et
+        Gestion et d&apos;un Baccalauréat en Finance.
+        <br />
+        <br /> J&apos;aide les entrepreneurs et infopreneurs à augmenter leurs
+        ventes et la conversion de leurs leads grâce à des textes hypnotiques et
+        persuasifs pour exploser tes résultats en quittant du normal à
+        éblouissant.
       </p>
     </div>
   );
