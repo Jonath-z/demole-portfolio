@@ -1,10 +1,11 @@
-import React, { useRef } from "react";
-import { services } from "../../db";
+import React, { useRef, useState, useEffect } from "react";
 import ServiceCard from "../../modules/__modules/ServiceCard";
 import useIsVisibleOnScreen from "../../modules/hooks/useIsvisibleOnScreen";
+import databaseServices from "../../db/databaseServices";
 
 const Services = () => {
   const ref = useRef(null);
+  const [services, setServices] = useState([]);
   useIsVisibleOnScreen(
     {
       root: ref.current,
@@ -13,6 +14,16 @@ const Services = () => {
     },
     ref.current?.childNodes
   );
+
+  useEffect(() => {
+    (() => {
+      databaseServices.getData("services", (data) => {
+        if (data) {
+          setServices(data);
+        }
+      });
+    })();
+  }, []);
 
   return (
     <div id="service" className="px-5 mt-96 lg:mx-32 xl:mx-64 2xl:mx-96">

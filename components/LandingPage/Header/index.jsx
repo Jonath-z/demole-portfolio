@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/link-passhref */
+import Link from "next/link";
 import React, { useState } from "react";
 import { VMail, VMenu, VPhone, VPlus } from "../../modules/vectos";
 
@@ -25,6 +27,11 @@ const Header = () => {
           >
             <VPlus className="rotate-45" />
           </li>
+          <Link href="/">
+            <li role="button" onClick={toggleMenu}>
+              Acceuil
+            </li>
+          </Link>
           <a href="#about">
             <li role="button" onClick={toggleMenu}>
               A propos
@@ -55,6 +62,11 @@ const Header = () => {
       <div className="flex justify-between items-center text-white bg-black/50 p-5  backdrop-blur-md">
         <div className="lg:block hidden">
           <ul className="hidden lg:flex gap-5">
+            <Link href="/">
+              <li role="button" onClick={toggleMenu}>
+                Acceuil
+              </li>
+            </Link>
             <a href="#about">
               <li>A propos</li>
             </a>
